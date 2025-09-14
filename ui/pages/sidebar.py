@@ -205,6 +205,7 @@ def render_sidebar():
             'market_trend_threshold': market_trend_threshold / 100 if strategy_name == "ETF轮动策略" else None,
             'vix_threshold': vix_threshold / 100 if strategy_name == "ETF轮动策略" else None,
             'momentum_decay': momentum_decay / 100 if strategy_name == "ETF轮动策略" else None,
+            'atr_multiplier': atr_multiplier if strategy_name == "ETF轮动策略" else None,
             'trail_percent': trail_percent,
             'risk_ratio': risk_ratio,
             'max_drawdown': max_drawdown,
