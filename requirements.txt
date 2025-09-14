@@ -20,7 +20,7 @@ gym==0.26.2
 torch==2.7.1
 ray==2.48.0
 dm_tree
-pandas_ta==0.3.14b0
+pandas_ta>=0.4.67b0
 joblib==1.5.1
 
 # Visualization
@@ -38,3 +38,13 @@ loguru==0.7.3
 
 # HTTP Requests
 requests==2.32.5
+
+# Additional Dependencies
+openpyxl>=3.1.0
+xlrd>=2.0.1
+pytz>=2023.3
+typing-extensions>=4.5.0
+tqdm>=4.65.0
+
+# Financial Analysis (optional)
+# ta-lib  # 需要通过 conda install -c conda-forge ta-lib 安装
