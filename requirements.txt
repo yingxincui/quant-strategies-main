@@ -1,22 +1,40 @@
-akshare==1.16.95
-arch==7.2.0
-backtrader==1.9.78.123
-empyrical_reloaded==0.5.12
-gym==0.26.2
-joblib==1.5.1
-loguru==0.7.3
-matplotlib==3.10.6
-numpy==2.3.3
-pandas==2.3.2
-pandas_ta==0.3.14b0
-plotly==5.24.1
-ray==2.48.0
-Requests==2.32.5
-scikit_learn==1.7.2
-seaborn==0.13.2
-stable_baselines3==2.7.0
+# Web UI Framework
 streamlit==1.47.1
-torch==2.7.1
+
+# Trading and Backtesting
+backtrader==1.9.78.123
+
+# Data Processing
+pandas==2.3.2
+numpy==2.3.3
+
+# Data Sources
+akshare==1.16.95
 tushare==1.4.21
-streamlit==1.47.0
+
+# Machine Learning and Optimization
+hyperopt
+scikit-learn==1.7.2
+stable-baselines3==2.7.0
+gym==0.26.2
+torch==2.7.1
+ray==2.48.0
+dm_tree
 pandas_ta==0.3.14b0
+joblib==1.5.1
+
+# Visualization
+matplotlib==3.10.6
+plotly==5.24.1
+bokeh
+seaborn==0.13.2
+
+# Time Series Analysis
+arch==7.2.0
+empyrical-reloaded==0.5.12
+
+# Logging
+loguru==0.7.3
+
+# HTTP Requests
+requests==2.32.5
