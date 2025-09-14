@@ -246,6 +246,9 @@ class ETFRotationStrategy(bt.Strategy):
         
         # 波动率上升时缩短调仓周期
         if current_atr > avg_atr * 1.2:
+            if not self.last_rebalance:
+                self.last_rebalance = self.data.datetime.date(0)
+                return True
             return (self.data.datetime.date(0) - self.last_rebalance).days >= 15
         else:
             if not self.last_rebalance:
