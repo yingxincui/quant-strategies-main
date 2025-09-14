@@ -16,3 +16,4 @@ gym
 torch
 scikit-learn
 dm_tree
+pandas_ta
